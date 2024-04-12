@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(14, 14, 47);
+}
+.nav {
+    height: auto;
+    width: 100%;
+    background-color: rgb(14, 14, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+h1 {
+    color: whitesmoke ;
+    text-align: center;
+    font-size: 4rem;
+    /* text-wrap: nowrap; */
+}
+h2 {
+    color: black ;
+    text-align: center;
+    font-size: 3rem;
+    background-color: rgb(139, 181, 218);
+}
+.login {
+    margin-top: 4rem;
+    height: 510px;
+    width: 600px;
+    background-color: rgb(139, 181, 218);
+    display: flex;
+    padding-top: 4rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+input {
+    color: whitesmoke;
+    height: 20%;
+    width: 90%;
+    margin-left: 5%;
+    /* margin: 5px; */
+    padding-left: 10px;
+    /* font-size: 1.5rem; */
+}
+input:hover {
+    border: 2px solid white;
+    /* font-weight: bold; */
+    font-size: 1.5rem;
+}
+button {
+    color: black;
+    border: 2px solid rgb(21, 21, 21);
+    height: 15%;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 2rem;
+    background-color: aqua;
+    border-radius: 10px;
+}
+button:active {
+    background-color: rgb(13, 70, 70);
+}
+button:hover {
+   border: 4px solid black;
+   font-weight: bold;
+}
+div a {
+    color: black;
+    text-align: center;
+    background-color: rgb(139, 181, 218);
+    font-size: 1.3rem;
+    text-decoration:none
+}
+a:hover {
+    color: whitesmoke;
+}
