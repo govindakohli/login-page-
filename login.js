@@ -31,8 +31,6 @@ let dark = () => {
         heaidng.classList.remove("light")
         mode.classList.add("dark")
         mode.classList.remove("light")
-        inner_box.classList.add("nav")
-        inner_box.classList.remove("nav")
 }
 
 let light = () => {
@@ -45,9 +43,6 @@ let light = () => {
     heaidng.classList.remove("dark")
     mode.classList.add("light")
     mode.classList.remove("dark")
-    inner_box.classList.add("light")
-    inner_box.classList.remove("dark")
-    
 }
 
 let currMode = "light"
