@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: rgb(14, 14, 47);
+    /* background-color: rgb(14, 14, 47); */
 }
 .nav {
     height: auto;
@@ -14,7 +14,7 @@
     flex-wrap: wrap;
 }
 h1 {
-    color: whitesmoke ;
+    /* color: whitesmoke ; */
     text-align: center;
     font-size: 4rem;
     /* text-wrap: nowrap; */
@@ -51,7 +51,7 @@ input:hover {
     /* font-weight: bold; */
     font-size: 1.5rem;
 }
-button {
+#btn2 {
     color: black;
     border: 2px solid rgb(21, 21, 21);
     height: 15%;
@@ -61,10 +61,10 @@ button {
     background-color: aqua;
     border-radius: 10px;
 }
-button:active {
+#btn2:active {
     background-color: rgb(13, 70, 70);
 }
-button:hover {
+#btn2:hover {
    border: 4px solid black;
    font-weight: bold;
 }
@@ -78,3 +78,33 @@ div a {
 a:hover {
     color: whitesmoke;
 }
+
+#btn1 {
+    /* color: black; */
+    /* border: 2px solid rgb(21, 21, 21); */
+    height: 2rem;
+    width: 5rem;
+   position: absolute;
+   right: 2rem;
+   top: 20px;
+   padding: 5px;
+   /* color: white; */
+   /* background-color: white; */
+   /* border: 1px solid whitesmoke; */
+    
+}
+#icon {
+   color: none;
+   background: none;
+}
+
+.light {
+    background-color: white;
+    color: black;
+
+}
+.dark {
+    background: rgb(14, 14, 47);
+    color: white;
+}
+
